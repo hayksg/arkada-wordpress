@@ -8,7 +8,7 @@ add_theme_support( 'post-thumbnails' );
 include( get_template_directory() . '/includes/front/enqueue.php');
 
 // Action Hooks
-add_action( 'wp_enqueue_scripts', 'intensive_enqueue' );
+add_action( 'wp_enqueue_scripts', 'arkada_enqueue' );
 
 
 // Filter Hooks
